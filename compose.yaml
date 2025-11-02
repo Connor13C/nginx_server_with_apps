@@ -155,7 +155,7 @@ services:
     image: postgres:16
     container_name: db2
     env_file:
-      - ./app1/.env
+      - ./app2/.env
     volumes:
       - db2-data:/var/lib/postgresql/data
     networks:
